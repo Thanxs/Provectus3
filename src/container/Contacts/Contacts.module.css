@@ -1,0 +1,42 @@
+.Contacts {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Contacts form {
+  display: flex;
+  flex-flow: column;
+}
+
+.Contacts label {
+  margin: 20px 0;
+}
+
+.Contacts input {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+
+.Contacts textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  resize: vertical;
+}
+
+.Contacts button {
+  width: 100%;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 1.05em;
+  text-transform: uppercase;
+  background: #12AD5E;
+  color: white;
+  border: 2px solid rgb(32, 131, 19);
+}
+
+.Contacts button:active {
+  background: rgb(15, 144, 78);
+  border: 2px solid rgb(26, 104, 15);
+}
